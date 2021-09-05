@@ -97,7 +97,11 @@ async function add({ username, password, role_name }) { // done for you
     created_user_id = user_id;
   })
   return findById(created_user_id);
+
+
 }
+
+
 
 module.exports = {
   add,
